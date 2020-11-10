@@ -21,5 +21,5 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.0
       with:
-        name: cody-bar.js
+        name: cody-progress-bar.js
         path: build/libs/*.jar
